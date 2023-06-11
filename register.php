@@ -14,7 +14,7 @@ if (empty($username) || empty($password) || empty($gender) || empty($phone)) {
     die("Please fill in all fields.");
 }
 
-$usersFile = "C:/Users/rlss0/OneDrive/Desktop/corelia_proj2/users.txt";
+$usersFile = "**your place for storing the creds.**";
 
 if (file_exists($usersFile)) {
     $users = unserialize(file_get_contents($usersFile));
