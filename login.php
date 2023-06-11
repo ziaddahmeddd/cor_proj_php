@@ -12,7 +12,7 @@ if (empty($username) || empty($password)) {
     die("Please fill in all fields.");
 }
 
-$usersFile = "C:/Users/rlss0/OneDrive/Desktop/corelia_proj2/users.txt";
+$usersFile = "**your place for storing the creds.**";
 
 if (!file_exists($usersFile)) {
     die("No users have been registered yet.");
