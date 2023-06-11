@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Update Information</title>
+    <script src="update.php"></script>
+</head>
+<body>
+    <h2>Update Information</h2>
+    <form id="updateForm" action="update.php" method="post">
+        <label for="gender">Gender:</label><br>
+        <input type="text" id="updateGender" name="gender"><br>
+        <label for="phone">Phone:</label><br>
+        <input type="text" id="updatePhone" name="phone"><br>
+        <label for="oldPassword">Old Password:</label><br>
+        <input type="password" id="updateOldPassword" name="oldPassword"><br>
+        <label for="newPassword">New Password:</label><br>
+        <input type="password" id="updateNewPassword" name="newPassword"><br>
+        <button type="submit">Update</button>
+    </form>
+    <button onclick="home()">Back to Home</button>
+</body>
+</html>
