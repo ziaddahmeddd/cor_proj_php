@@ -22,7 +22,7 @@ if (!password_verify($oldPassword, $_SESSION['user']['password'])) {
     die("Your old password is incorrect.");
 }
 
-$usersFile = "C:/Users/rlss0/OneDrive/Desktop/corelia_proj2/users.txt";
+$usersFile = "**your place for storing the creds.**";
 $users = unserialize(file_get_contents($usersFile));
 
 foreach ($users as &$user) {
