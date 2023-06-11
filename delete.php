@@ -5,7 +5,7 @@ if (!isset($_SESSION['user'])) {
     die("You are not logged in.");
 }
 
-$usersFile = "C:/Users/rlss0/OneDrive/Desktop/corelia_proj/users.txt";
+$usersFile = "**your place for storing the creds.**";
 $users = unserialize(file_get_contents($usersFile));
 
 foreach ($users as $index => $user) {
